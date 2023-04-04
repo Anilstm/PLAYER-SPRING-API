@@ -3,7 +3,7 @@ The `PlayerService` class has a variable named `team`, which is a HashMap that h
 
 ### Completion Instructions
 
-- `Player.java`: `Player` class should contain the following attributes.
+- `Player.java`: `Player` class contains the following attributes.
 
     | Attribute    | Type   |
     | ------------ | ------ |
@@ -12,9 +12,9 @@ The `PlayerService` class has a variable named `team`, which is a HashMap that h
     | jerseyNumber | int    |
     | role         | String |
 
-- `PlayerRepository.java`: Create an `interface` containing required methods.
-- `PlayerService.java`: Update the service class with logic for managing player data.
-- `PlayerController.java`: Create the controller class to handle HTTP requests.  
+- `PlayerRepository.java`: Creates an `interface` containing required methods.
+- `PlayerService.java`: Updates the service class with logic for managing player data.
+- `PlayerController.java`: Creates the controller class to handle HTTP requests.  
 
 Implement the following APIs.
 
@@ -135,7 +135,3 @@ Updates the details of a player in the team based on the `playerId`. If the give
 #### Description:
 
 Deletes a player from the team  based on the `playerId`. If the given `playerId` is not found in the `team`, raise `ResponseStatusException` with `HttpStatus.NOT_FOUND`.
-
-
-**Do not modify the code in `PlayerApplication.java`**
-
